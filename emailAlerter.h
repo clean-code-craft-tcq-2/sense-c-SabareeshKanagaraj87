@@ -1,0 +1,4 @@
+void emailAlerter()
+{
+  emailAlertCallCount++;
+}
