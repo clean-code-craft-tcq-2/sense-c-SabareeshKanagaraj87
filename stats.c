@@ -9,12 +9,12 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
        sum += numberset[i];
     
     float max = numberset[0];
-    for (i = 1; i < setlength; i++)
+    for (int i = 1; i < setlength; i++)
         if (numberset[i] > max)
             max = numberset[i];
     
     float min = numberset[0];
-    for (i = 1; i < setlength; i++)
+    for (int i = 1; i < setlength; i++)
         if (numberset[i] < min)
             min = numberset[i];
 
